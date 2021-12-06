@@ -1,0 +1,75 @@
+/* selector(property; value)
+Selector = isinya tag2 html
+- display
+- inline = tidak menambah baris baru ketika dibuat
+- block menambah baris baru ketika dibuat
+- properti dasar css
+-  none = menghilangkan tag html
+- font
+-text
+- background
+pseudo class = kelas semu
+*/
+
+h1{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-variant: small-caps;
+    font-style : italic;
+    line-height: 15px;
+}
+
+/* text
+1. color : memberi warna pada tulisan
+2. text-align : mengatur penempatan paragraf
+3. text-indent : memberi tab pada paragraf
+4. text-decoration : mengatur dekorasi pada teks
+5. text-transform: mengubah jenis font jadi huruf besar, kecil, kapital
+6. letter-spacing : mengatur spasi antar kata
+7. word-spacing
+*/
+
+h3{
+    color: goldenrod;
+}
+p{
+    text-align: start;
+    text-indent: 50px;
+}
+
+a{ 
+    text-decoration: none;
+    text-transform:uppercase;
+}
+/*
+background
+-background-color= mengubah warna background
+- background-image= mengubah background jadi gambar
+*/
+
+body{
+    background-image : url(BG.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size:cover;
+}
+
+span{
+    font-weight: 900;
+}
+
+/* 
+. untuk class
+# untuk id
+-class buat menggabungkan elemen di html spy desain lbh gampang
+-id (identitas) cm ke satu elemen doang
+*/
+.paragraf1 {
+    color: green;
+}
+
+#judul{
+    color: indigo;
+}
